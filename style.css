@@ -1,5 +1,6 @@
 body{
-    background: #2E2727;
+
+    background: rgb(184, 184, 184);
 }
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital@1&family=Poppins&family=Raleway:wght@400;500;600;700&family=Roboto+Condensed:ital,wght@1,300&family=Rubik:wght@400;500;600;700&display=swap");
 body {
@@ -181,10 +182,11 @@ body {
     display: flex;
     align-items: center;
     column-gap: 80px;
+    margin-left: 200px;
 }
 .sliderImg{
-    width: 500px;
-    height: 400px;
+    width: 400px;
+    height: 500px;
 }
 .itemBlock{
   display: flex;
@@ -213,7 +215,7 @@ body {
       justify-content: space-between;
       width: 612px;
       height: 73px;  
-      background: linear-gradient(90.19deg, #937B7B 37.89%, #DFCBBF 106.92%);
+      background: linear-gradient(90.19deg, #918989 37.89%, #d6cdc7 106.92%);
       border-radius: 10px;
       border: none;
       font-family: 'Inter';
@@ -261,7 +263,7 @@ body {
   cursor: pointer;
   width: 455px;
   height: 85px;
-  background: #DFCBBF;
+  background: #adaaa6;
   border: none;
   font-family: 'Inter';
   font-style: normal;
@@ -274,7 +276,6 @@ body {
 }
 .btnBlockAdd{
   display: flex;
-  justify-content: center;
 }
 
 /* styles for the second productBlock */
@@ -301,7 +302,7 @@ body {
   border: none;
   width: 640px;
   height: 64px;
-  background: #262020;
+  background: #747474;
   font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
@@ -351,7 +352,7 @@ body {
   width: 300px;
   height: 64px;
   border: none;
-  background: #FAD3A5;
+  background: #adaaa6;
   text-align: center;
   font-family: 'Raleway';
   font-style: bold;

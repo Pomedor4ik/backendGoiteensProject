@@ -2,7 +2,7 @@ const productId = window.location.hash.substring(1)
 const reviewStore = [
     {
         id:1,
-        name: "Андрій",
+        name: "Діма",
         text: "Дякую велике і за швидку доставку та відмінний товар !!! Дуже приємна покупка"
     },
     {
@@ -28,7 +28,7 @@ const renderReviews = (stote) => {
 
 renderReviews(reviewStore)
 
-const imgStore = ['Foto.svg', 'nike.png', 'foto2.png']
+const imgStore = ['FrontSide.webp', 'BackSide.webp', 'NikeSet.webp']
 
 const sliderImgEl = document.querySelector('.sliderImg')
 const sliderBtns = {
